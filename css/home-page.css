@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #8a3f3f;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-around;
+  }
