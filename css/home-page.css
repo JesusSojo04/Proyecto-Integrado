@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ff7e7e;
+    width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+footer {
+    background-color: #8a3f3f;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-around;
+  }
