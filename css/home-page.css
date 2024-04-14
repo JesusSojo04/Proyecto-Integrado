@@ -4,19 +4,26 @@ body {
     margin: 0;
     padding: 0;
 }
-header {
+.head {
     background-color: #ff7e7e;
     width: 100%;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 10px 0;
   display: flex;
   justify-content: space-around;
   align-items: center; 
+
+}
+header {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
 }
 footer {
-    background-color: #8a3f3f;
+    background-color: #a84e4e;
     color: #fff;
-    padding: 20px;
+    padding: 15px;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -26,3 +33,34 @@ footer {
     bottom: 0;
     justify-content: space-around;
   }
+.oferta {
+  background-color: #ffa3a3;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  padding: 5px;
+}
+nav {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.icon {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+article {
+  margin-top: 10px;
+  background-color: rgb(226, 226, 226);
+  padding: 3px;
+}
+@media (max-width: 768px) {
+  nav {
+    display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr;
+  }
+}
