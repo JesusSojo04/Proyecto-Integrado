@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css\sign-up.css">
 </head>
 <body>
-    
+    <div class="container">
+        <form action="#" method="post">
+            <h2>Registro de Usuario</h2>
+            <input type="text" name="nombre" placeholder="Nombre" required><br>
+            <input type="text" name="apellidos" placeholder="Apellidos" required><br>
+            <input type="email" name="correo" placeholder="Correo electrónico" required><br>
+            <select name="sexo" required>
+                <option value="">Seleccione su sexo</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+            </select><br>
+        </form>
+
+        <div class="line"></div>
+
+        <form action="#" method="post">
+            </select><br>
+            Fecha de nacimiento <br>
+            <input type="date" name="fecha_nacimiento" required><br>
+            <input type="text" name="localidad" placeholder="Localidad" required><br>
+            <input type="password" name="contrasena" placeholder="Contraseña" required><br>
+            <input type="password" name="confirmar_contrasena" placeholder="Confirmar Contraseña" required><br>
+            <input type="submit" value="Crear Cuenta">
+        </form>
+    </div>
+
+    <footer>
+        <a>Ayuda</a>
+        <a>Contáctanos</a>
+        <a>Empresa</a>
+    </footer>
 </body>
 </html>
