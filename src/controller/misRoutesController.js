@@ -2,12 +2,16 @@ const getIndex = (req, res) => {
     res.render('home-page');
 };
 
-const getRegistro = (req, res) => {
-    res.render('registro');
+const getSignUp = (req, res) => {
+    res.render('sign-up');
 };
+const getLogIn = (req, res) => {
+    res.render('log-in');
+}
 
 module.exports = {
     getIndex,
-    getRegistro
+    getSignUp,
+    getLogIn
 
 };

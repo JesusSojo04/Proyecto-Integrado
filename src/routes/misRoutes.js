@@ -6,6 +6,7 @@ const misRoutesController = require('../controller/misRoutesController');
 router
     //
     .get('/',misRoutesController.getIndex)
-    .get('/registro', misRoutesController.get)
+    .get('/sign-up', misRoutesController.getSignUp)
+    .get('/log-in', misRoutesController.getLogIn)
 
 module.exports = router;
