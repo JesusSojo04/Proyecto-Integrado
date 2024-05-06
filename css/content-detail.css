@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.head {
+    background-color: #3473d1;
+    width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  border: 2px solid #000;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+}
+footer {
+    background-color: #3473d1;
+    color: #000000;
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-around;
+    border: 2px solid #000;
+  }
+.oferta {
+  background-color: #a7acfa;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  padding: 5px;
+}
+nav {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.icon {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+nombre_producto{
+position: relative;
+  top: -250px; 
+  left: 600px; 
+  font-weight: bold;
+  font-size: 60px;
+}
+
+descripcion{
+    font-weight: bold;
+    position: relative;
+  top: -10px; 
+  left: 650px; 
+  font-weight: bold;
+  font-size: 20px;
+  height: 100px; 
+  width: 500px; 
+}
+
+precio{
+    position: relative;
+    top: -0px; 
+    left: 10px; 
+    font-weight: bold;
+    font-size: 80px;
+}
+
+numero{
+    position: relative;
+  top: -250px; 
+  left: 1300px; 
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.cesta{
+    position: relative;
+    top: -150px; 
+    left: 1300px; 
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-inline: 40px;
+    font-size: medium;
+}
+
+.comprar{
+    position: relative;
+    top: -50px; 
+    left: 1300px; 
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-inline: 40px;
+    font-size: medium;
+}
+@media (max-width: 768px) {
+  nav {
+    display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr;
+  }
+}

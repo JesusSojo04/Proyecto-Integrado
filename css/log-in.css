@@ -49,7 +49,7 @@ input {
     border: 1px;
 }
 footer {
-    background-color: #8a3f3f;
+    background-color: #3473d1;
     color: #000000;
     padding: 20px;
     width: 100%;
@@ -60,6 +60,7 @@ footer {
     position: fixed;
     bottom: 0;
     justify-content: space-around;
+    border: 2px solid #000;
   }
 
 .acc {
