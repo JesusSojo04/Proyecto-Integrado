@@ -5,14 +5,14 @@ body {
     padding: 0;
 }
 .head {
-    background-color: #ff7e7e;
+    background-color: #3473d1;
     width: 100%;
   margin: 0 auto;
   padding: 10px 0;
   display: flex;
   justify-content: space-around;
   align-items: center; 
-
+  border: 2px solid #000;
 }
 header {
   display: flex;
@@ -21,20 +21,21 @@ header {
   width: 100%;
 }
 footer {
-    background-color: #a84e4e;
-    color: #000000;
-    padding: 15px;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-    justify-content: space-around;
+  background-color: #3473d1;
+  color: #000000;
+  padding: 15px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  justify-content: space-around;
+  border: 2px solid #000;
   }
 .oferta {
-  background-color: #ffa3a3;
+  background-color: #a7acfa;
   display: flex;
   align-items: center;
   justify-content:center;
@@ -54,8 +55,9 @@ nav {
 }
 article {
   margin-top: 10px;
-  background-color: rgb(226, 226, 226);
-  padding: 3px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20px;
 }
 @media (max-width: 768px) {
   nav {
