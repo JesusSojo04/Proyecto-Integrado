@@ -3,17 +3,16 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-
 }
 .head {
-  background-color: #3473d1;
-  width: 100%;
-margin: 0 auto;
-padding: 10px 0;
-display: flex;
-justify-content: space-around;
-align-items: center; 
-border: 2px solid #000;
+    background-color: #3473d1;
+    width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  border: 2px solid #000;
 }
 header {
   display: flex;
@@ -22,18 +21,18 @@ header {
   width: 100%;
 }
 footer {
-    background-color: #3473d1;
-    color: #000000;
-    padding: 15px;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-    justify-content: space-around;
-    border: 2px solid #000;
+  background-color: #3473d1;
+  color: #000000;
+  padding: 15px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  justify-content: space-around;
+  border: 2px solid #000;
   }
 .oferta {
   background-color: #a7acfa;
@@ -41,7 +40,6 @@ footer {
   align-items: center;
   justify-content:center;
   padding: 5px;
-  
 }
 nav {
   display: grid;
@@ -57,9 +55,9 @@ nav {
 }
 article {
   margin-top: 10px;
-  padding: 3px;
-  font-size: 20px;
+  padding: 5px;
   font-weight: bold;
+  font-size: 20px;
 }
 @media (max-width: 768px) {
   nav {
