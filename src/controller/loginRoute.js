@@ -10,7 +10,7 @@ const getIndex = (req, res) => {
 const login = (req, res) => {
     const username = req.body.username;
     const password = req.body.contraseña;
-    const query = 'SELECT * FROM usuario WHERE username = ?';
+    const query = 'SELECT * FROM usuario WHERE email = ?';
    
     connection.query(query, [username], (err, results) => {
         if (err) throw err;
@@ -56,7 +56,7 @@ const getDashboard = (req, res) => {
     const { name, apellido, username, password, fecha_nacimiento, phone } = req.body;
     // Encriptar la contraseña
     const hashedPassword = await bcrypt.hash(password, 10);
-    const insertQuery ='INSERT INTO usuarios (nombre, apellido, username, contraseña, fecha_nacimiento, telefono) VALUES (?, ?, ?, ?, ?, ?)';
+    const insertQuery ='INSERT INTO usuarios (nombre, apellido, email, contraseña, fecha_nacimiento, telefono) VALUES (?, ?, ?, ?, ?, ?)';
     const values = [name, apellido, username, hashedPassword, fecha_nacimiento, phone];
     // Ejecutar la consulta INSERT
     connection.query(insertQuery, values, function(error, results, fields) {
@@ -73,7 +73,7 @@ const getDashboard = (req, res) => {
  const postLogin =(req, res) => {
     const username = req.body.username;
     const password = req.body.contraseña;
-    const query = 'SELECT * FROM usuarios WHERE username = ?';
+    const query = 'SELECT * FROM usuario WHERE username = ?';
    
     connection.query(query, [username], (err, results) => {
         if (err) throw err;

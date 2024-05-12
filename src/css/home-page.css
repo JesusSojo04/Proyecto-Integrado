@@ -68,3 +68,7 @@ article {
   grid-template-columns: 1fr;
   }
 }
+a {
+  color: #000;
+  text-decoration: none;
+}
