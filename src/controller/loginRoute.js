@@ -115,7 +115,7 @@ const getPerfil = (req, res) => {
     const username = req.session.username;
     const mensaje = req.query.mensaje;
     // Consulta SQL para obtener los datos del perfil del usuario
-    const sql = 'SELECT * FROM usuarios WHERE username = ?';
+    const sql = 'SELECT * FROM usuario WHERE gmail = ?';
     connection.query(sql, [username], (err, results) => {
         if (err) {
             console.error('Error al obtener datos del perfil:', err);
